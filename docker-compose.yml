@@ -7,7 +7,7 @@ services:
 
   conjur:
     image: cyberark/conjur
-    command: server
+    command: infinity
     environment:
       DATABASE_URL: postgres://postgres@database/postgres
       CONJUR_DATA_KEY:
